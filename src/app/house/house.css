@@ -1,0 +1,29 @@
+
+.block-center {
+    position: relative;
+    top: -40px;
+    max-width: 100%;
+    min-width: 60%;
+    margin-left: 210px;
+
+}
+
+.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.panel-btn {
+    height: 30px;
+    width: 45px;
+}
+
+#desc {
+    margin-left: 15px;
+    height: 150px;
+    width:500px !important;
+}
+
+.to-right {
+    margin-left: 210px;
+}

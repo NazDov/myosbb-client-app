@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "outDir": "./bin"
+  },
+  "filesGlob": [
+    "./src/**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files":    [
+    "app/app.component.ts",
+    "app/app.boot.ts",
+    "typings/browser/ambient/es6-promise/es6-promise.d.ts",
+    "typings/browser/ambient/es6-collections/es6-collections.d.ts"
+  ]
+}

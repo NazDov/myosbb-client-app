@@ -1,0 +1,94 @@
+<aside>
+    <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+
+            <p class="centered"><a [routerLink]="['profile']"><img src="assets/img/ui-sam.jpg" class="img-circle"
+                                                            width="60"></a></p>
+            <h5 class="centered">{{userName}}</h5>
+
+            <li class="sub-menu">
+                <a [routerLink]="['main']">
+                    <i class="fa fa-user"></i>
+                    <span>Головна</span>
+                </a>
+            </li>
+
+            <li class="sub-menu">
+                <a [routerLink]="['apartment']">
+                    <i class="fa fa-building-o"></i>
+                    <span>Квартира</span>
+                </a>
+            </li>
+
+            <li class="sub-menu">
+                <a [routerLink]="['event']">
+                    <i class="fa fa-calendar"></i>
+                    <span>Події</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['attachment']">
+                    <i class="fa fa-bookmark"></i>
+                    <span>Вкладення</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['ticket']">
+                    <i class="fa fa-comments"></i>
+                    <span>Обговорення</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['bill']">
+                    <i class="fa fa-credit-card-alt"></i>
+                    <span>Рахунки</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['osbb/bill']">
+                    <i class="fa fa-credit-card-alt"></i>
+                    <span>Рахунки ОСББ</span>
+                </a>
+            </li>
+
+            <li class="sub-menu">
+                <a [routerLink]="['report']">
+                    <i class="fa fa-list-alt"></i>
+                    <span>Звіти</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['users']">
+                    <i class="fa fa-users"></i>
+                    <span>Юзвери</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['osbb']">
+                    <i class="fa fa-users"></i>
+                    <span>ОСББ</span>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a [routerLink]="['role']">
+                    <i class="fa fa-user"></i>
+                    <span>Ролі</span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['provider']">
+                    <i class="fa fa-wrench"></i>
+                    <span> {{ 'providers' | translate | capitalize }}</span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['contract']">
+                    <i class="fa fa-bookmark"></i>
+                    <span> {{ 'contracts' | translate | capitalize }}</span>
+                </a>
+            </li>
+        </ul>
+        <!-- sidebar menu end-->
+    </div>
+</aside>
