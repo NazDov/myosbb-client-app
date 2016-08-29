@@ -10,7 +10,7 @@
     "tsc:w": "gulp",
     "gulp": "gulp",
     "start": "concurrent \"npm run gulp\" \"npm run lite\" ",
-    "postinstall": "npm run gulp"
+    "postinstall": "npm run tsc"
   },
   "license": "ISC",
   "dependencies": {
