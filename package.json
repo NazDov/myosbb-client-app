@@ -1,7 +1,9 @@
 {
   "name": "myosbb-web-app",
   "version": "1.0.0",
-  "engine": "node 4.4.7",
+ "engines" : 
+  { "npm" : "3.10.5",
+   "node" : "4.4.7" },
   "scripts": {
     "lite": "lite-server",
     "postinstall": "typings install",
