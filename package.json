@@ -1,6 +1,7 @@
 {
   "name": "myosbb-web-app",
   "version": "1.0.0",
+  "engine": "node 4.4.7",
   "scripts": {
     "lite": "lite-server",
     "postinstall": "typings install",
@@ -46,7 +47,7 @@
     "text-mask-addons": "0.6.0",
     "zone.js": "^0.6.12"
   },
-  "engine": "node 4.4.7",
+  
   "devDependencies": {
     "autoprefixer": "^6.3.5",
     "concurrently": "^2.0.0",
