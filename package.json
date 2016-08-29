@@ -8,8 +8,6 @@
     "lite": "lite-server",
     "tsc": "gulp",
     "tsc:w": "gulp",
-    "typings": "typings",
-    "postinstall": "typings install",
     "gulp": "gulp",
     "start": "concurrent \"npm run gulp\" \"npm run lite\" "
   },
