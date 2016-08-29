@@ -6,7 +6,7 @@
    "node" : "4.4.7" },
   "scripts": {
     "lite": "lite-server",
-    "tsc": "gulp",
+    "tsc": "tsc",
     "tsc:w": "gulp",
     "gulp": "gulp",
     "start": "concurrent \"npm run gulp\" \"npm run lite\" ",
